@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <ListPreference
+            android:defaultValue="4"
+            android:dialogTitle="@string/lines_amount"
+            android:entries="@array/pref_lines_amount_entries"
+            android:entryValues="@array/pref_lines_amount_entries"
+            android:icon="@drawable/baseline_view_headline_24"
+            android:key="key_lines_amount"
+            android:title="@string/lines_amount" />
+
+        <EditTextPreference
+            android:dialogTitle="Enter url for fetching json"
+            android:icon="@drawable/baseline_edit_24"
+            android:key="key_url_edit"
+            android:title="@string/url_edit" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/baseline_email_24"
+            android:key="key_user_email"
+            android:title="Email visibility" />
+    </PreferenceCategory>
+</PreferenceScreen>

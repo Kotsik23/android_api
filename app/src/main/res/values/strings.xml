@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Users API (Smushko O.R.)</string>
+    <string name="lines_amount">Display Lines</string>
+    <string name="url_edit">Edit URL</string>
+
+    <string-array name="pref_lines_amount_entries">
+        <item>3</item>
+        <item>7</item>
+        <item>10</item>
+        <item>50</item>
+    </string-array>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="user_id_example">1</string>
+    <string name="username_example">Username</string>
+    <string name="email_example">E-mail</string>
+    <string name="post_title_example">qui est esse</string>
+    <string name="action_settings">Settings</string>
+    <string name="users_list_title">Users List</string>
+    <string name="posts_list_title">Posts List</string>
+</resources>
